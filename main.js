@@ -3,7 +3,7 @@ let button = document.querySelector('.btn-primary')
 let h5 = document.querySelector('.card-title')
 //let cardText = document.querySelector('.card-text')
 
-let form = document.querySelector('form')
+let form = document.querySelector('#form-1')
 let textInput = document.querySelector('#text-input')
 let displayResponse = document.querySelector('#display-response')
 let displayResponse2 = document.querySelector('#display2-response')
@@ -38,3 +38,4 @@ form.addEventListener('submit', (e) => {
         displayResponse3.innerText = data2.description
     })
 })
+
